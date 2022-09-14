@@ -1,0 +1,372 @@
+
+	
+	=> CGI (Common Gateway Interface) :
+		-> CGI is a simple protocol used to communicate between Web forms and a program written in any language
+	
+	=> HTTP (Hypertext Transfer Protocol) :	
+		-> it's the network protocol, is used to deliver all files and other data on the World Wide Web,
+	
+	=> What is web development?
+		-> Web programming also known as web development, is the creation of dynamic web applications. Examples of web applications are social networking sites like Facebook or e-commerce sites like Amazon.
+	
+	=> What is World Wide Web?
+		-> World Wide Web, which is also known as a Web, is a collection of websites or web pages stored in web servers and connected to local computers through the internet. These websites contain text pages, digital images, audios, videos, etc. Users can access the content of these sites from any part of the world over the internet using their devices such as computers, laptops, cell phones, etc
+	
+	=> What is protocol and how it works?
+		-> protocol, in computer science, a set of rules or procedures for transmitting data between two electronic devices, such as computers.ther are 7 layers of protocols
+		1. Physical Layer
+		2. Data Link Layer
+		3. Network Layer
+		4. Transport Layer
+		5. Session Layer
+		6. Presentation Layer
+		7. Application Layer
+	
+	=> Linux is a Unix-like computer operating system. Linux is one of the most prominent examples of free software and open source development. Linux is used as an operating systems like MS-DOS, MS Windows, Mac OS. Linux is not a program like a word processor and is not a set of programs like an office suite.
+			
+	=> Apache : Apache is just one component that is needed in a web application to deliver web content.
+	
+	=> XHTML (Extensible HyperText Markup Language) : 
+		-> is a combination of html and xml
+		-> XHTML is almost similar to HTML but it is stricter than HTML
+		-> All major browsers support XHTML
+		-> it is compulsory to write < DOCTYPE > declaration.
+		-> all the tags must be closed in the necessary order.
+		
+	=> JavaScript is a scripting language most often used for client-side web development.
+ 
+	=> The Linux file system :
+		-> bin : You will find all of the most used commands
+		-> etc : this houses most of the configuration files for Linux	
+		-> usr : This contains files and programs meant to be used by all of the users on the system.
+		-> tmp : is a directory that is used to store temporary files.
+		-> lib : is for library files.Programs may use libraries to carry out their functions. Different programs use the same libraries, so Linux will store them here so that every program knows where to find them.
+		-> home : This is a directory for storing users' personal files.
+		-> floppy, /cdrom, and /mnt directories : when you want to access Floppy disk, CD or DVD they are mounted here which means contents of your input media can be seen from corresponding directories
+
+
+	=> .bashrc file : The purpose of a .bashrc file is to provide a place where you can set up variables, functions and aliases, define your (PS1) prompt and define other settings that you want to use every time you open a new terminal window.
+ 
+	=> Alias : an alias is a shortcut that references a command.Aliases are mostly used to replace long commands, improving efficiency and avoiding potential spelling errors. Aliases can also replace commands with additional options, making them easier to use.
+		-> Ex. alias c='clear'
+		 
+	=> RPM 
+		if you are using Red Hat,then you are going to use the RPM method. It stands for Red Hat Package Manager.
+		-> RPM method in installed new program then use (-i option for install)
+			EX. rpm i new_program.rpm
+		-> rmp methos in check if you have got a program installed, then use ( rpm q program_name ) 
+		-> rpm method in uninstalled any packages, then use ( rpm -e opera )
+		-> rpm method in update any packages, then use ( rpm -U opera_new_version.rpm )
+	
+	=> Yum
+		It stands for Yellow dog Updater, Modified 
+		advantages:- 1. automatically finds, downloads and installs the most suitable rpm packages 
+			     2. It will also automatically add/update other depending packages, if required, while
+				installing/updating any other packages. 
+		-> If you are install software then  
+			-> yum install opera
+		-> If you are update software then  
+			-> yum update opera
+		-> If you are remove software then  
+			-> yum remove opera
+		-> you can also use install/update/remove multiple packages at same time.
+			-> yum update kernel*
+	=> dpkg
+		-> This is the classic way of updating a Debian system.
+		-> EX. dpkg i package.deb
+		-> The main drawback to this is that you may find a package that you like but it may have dependencies (ie. other programs that it needs to make it run) and if you don't have those packages, then the install will fail.
+	
+		
+	=> KOffice is the KDE Project's offering for desktop productivity. It includes all of the standard
+office suite applications. The software is offered free of charge.
+	
+	=> GNOME office is not an office suite in the classic sense, but a set of applications that are often associated with office suites, as a package deal. 
+		Ex.
+		-> Gnumeric, a spreadsheet application
+		-> AbiWord, a word processor 
+		-> Gnucash, a personal finance manager
+		-> GNOME-DB, database connectivity software 
+		-> If you download the Ximian Desktop, you will get these applications plus the other productivity
+tools associated with the GNOME project
+	
+	=> OpenOffice is an office application suite available for a number of different computer operating systems.
+	
+	=> GUI Editors
+		-> Quanta Plus/Kdewebdev : is a free and open-source web IDE. It is part of KDE, released in the Kdewebdev package
+		-> Quanta is capable of both WYSIWYG design and handcoding.
+		-> Quanta Plus is feature-rich, aimed at beginners as well as at professionals. 
+		-> Bluefish : is a free software/open source text editor for POSIX-conforming operating systems
+such as Linux and Mac OS X. 
+
+		-> Kate : is a text editor for KDE. The acronym Kate stands for "KDE advanced text editor".
+		-> Kate has been part of the kdebase package. 
+		
+		-> KWrite : is a lightweight text editor for the K Desktop Environment (KDE)
+		-> KWrite are ability to export to HTML/PDF/PostScript, Blocking selection mode,Syntax highlighting,
+		
+		-> Eclipse : is an open-source IDE written primarily in Java.
+		
+		-> Zend Studio : for Eclipse is a commercial, proprietary IDE for PHP, developed by Zend Technologies. 
+		-> features :
+			-> Deployment with FTP, SFTP and FTP over SSH
+			-> Debugging Environment
+			-> Database view for MySQL, Microsoft SQL Server, Oracle, PostgreSQL, SQLite and others
+			-> Java completion support
+			-> Web services support
+			
+	=> CVS : is the most popular version control system among developers
+		-> Stands for concurrent versions system.
+				
+	=> cron set (on *nix or Linux) or Task Scheduler (on Windows). 
+		
+	=> Literals and identifiers :
+		-> literal : A literal is a data value that appears directly in a program. 
+		-> identifier : is simply a name. identifiers are used to name variables, functions, constants, and classes
+		
+	=> Logical xor Only one condition are true that true otherwise false
+		Ex. if(30 < 5 xor 5 < 10  xor 5 < 10) { echo "true";}  Ans. true
+		
+	=> Type Casting : the conversion of a value from one type to another is called casting.
+	    	-> Implicit Casting (Automatic) :-
+	    		Ex. 	$x = 2; 
+				$y = 4;
+				var_dump($x / $y); // 2/4 = 0.5 (Float)
+				var_dump($y / $x); // 4/2 = 2 (Int)
+				
+    		-> Explicit Casting (Manual) :-
+    			Ex. 	$x = 5.35;
+				$y = (int) $x; // cast $x to integer
+				var_dump($y);
+	
+	=> Ternary conditional operator (? :)
+		Ex. echo '<td>'.($active ? 'yes' : 'no').'</td>';
+		
+	=> user define constant
+		-> A constant is an identifier (name) for a simple value.
+		-> As the name suggests, that value cannot change during the execution of the script.
+		-> constant identifiers are always uppercase.
+		-> Constants may be defined and accessed anywhere without regard to variable scoping rules.
+		-> Constants may not be redefined or undefined once they have been set
+		-> You can define a constant by using the define() function. 
+			-> Ex. define('CHAPTER','PHP');
+	
+	=> magic constants :
+		-> PHP provides a large number of predefined constants to any script which it runs. 
+			-> __LINE__  	: The current line number of the file.
+			-> __FILE__  	: The full path and filename of the file.
+			-> __FUNCTION__ : The function name.
+			-> __CLASS__  	: The class name.
+			-> __METHOD__   : The method name.
+		
+	=> HTTP environment variables :
+		-> $_ENV	
+		-> $_POST
+		-> $_GET
+		-> $_COOKIE
+		-> $_SESSION
+		-> $_FILES
+		-> $_SERVER
+			
+	=> exit and return
+		-> exit statement ends execution of the script.
+		-> return statement returns from a function
+		
+	=> include and require
+		-> PHP provides two constructs to load code and HTML from another module
+			-> require : a nonexistent file is a fatal error.
+			-> include : a nonexistent file is then produces a warning but not stop script execution.
+			
+	=> function : 
+		-> A function is a named block of code that performs a specific task.
+	
+	=> purpose of functions :
+		-> reducing the duplication of code in a program.
+		-> reuse of code in multiple programs 
+		-> improving readability of a program
+		
+	=> Declaring functions : 
+		-> Ex. 	function function_name([parameter[]])
+			{
+				statement list
+			}
+		
+	=> Functions arguments(parameter) : 
+		-> A function are usually given certain values which are used in execution of various statements.These values are called parameters.	
+		-> function test($left)
+		  {
+		  	return $left="hello friends";
+		  }
+		  echo test($left);
+			output : hello friends
+		
+	=> call by reference :
+		-> If you wish to a function to modify its arguments, you must pass them by reference. that you can prepend an ampersand (&) to the argument	
+		-> function add_some_extra(& $strArg)
+			  {
+			  	$strArg .='and something extra.';
+			  }
+				$string='This is a string, ';
+
+			  add_some_extra($string);
+			  echo $string;
+				output : This is a string, and something extra.   
+		  		
+	=> Default arguments : 
+		-> function tets($type='developers')
+			{
+			return 'hello '.$type.'.<br />';
+			}
+			echo test();
+				output : hello developers. 
+		
+	=> Variable scope :
+		-> Local variable declared in a function.it is visible only to code in that function, it's not access outside function.
+		
+		-> global Variables declared outside a function are global. they can be accessed from any part of the program.
+			
+		-> static variable retains its value between calls to a function but is visible only within that function.
+		
+	=> Recursion : A function that calls itself during execution, is called recursive function.
+		
+		-> function recursion($arg)
+		   {
+			if ($arg <= 2)
+			{
+				echo $arg.',';
+				// call same function.
+				recursion($arg + 1);
+			}
+		   }
+		   recursion(1);
+				output : 1,
+		
+	=> array :
+		-> indexed/numeric array : An array having only integer keys is typically referred to as an indexed/numeric array.
+		-> associative array	 : An array having string keys is typically called an associative array.
+			
+	=> foreach : 
+		-> used to array to retrieve array keys and/or values.
+		
+	=> Add/remove info from arrays
+		-> You can modify an existing array by explicitly setting values in it. This is done by assigning
+values to the array while specifying the key in brackets	
+		
+		-> add array 	: $test['2005']='The rising';
+		-> remove array : unset($test['2008']);
+			
+	=> array function :
+		-> list 	: The list() function is used to assign values to a list of variables in one operation.
+		-> array_keys 	: it returns only keys in  the array.
+		-> array_splice : function can remove or insert elements in an array
+		-> extract	: function automatically creates local variables from an array
+		-> compact	: function creates an array from variables and their values
+		
+	=> php.ini file :
+		-> PHP's behavior can be changed by making modifications in it's configuration file called php.ini.
+		
+	=> Module vs. CGI usage
+		-> Module : if we use Apache module, you can also change the configuration settings using
+directives in Apache configuration files (e.g. httpd.conf) and .htaccess files.
+		-> CGI : This advantage can not be gained while running PHP as CGI mode
+	
+	=> register_globals : 
+		-> <input type="text" name="usr_firstname">
+		-> if " register_globals=On " in php.ini file 
+		-> You can access form attribute without Global Arrays ( GET[], POST[] & REQUEST[]) 
+		-> echo $usr_firstname;
+		
+		-> if " register_globals=Off " in php.ini file 
+		-> You have to access all attributes only by Global Arrays. 
+		-> echo $_GET['usr_firstname'];
+			
+	=> Commonly set configurations :
+	
+		-> upload_tmp_dir :	
+			-> This setting controls the temporary location of files uploaded with an HTML form. If you don't
+specify a path for this setting, uploaded files will be temporarily stored in a world-readable location on the server.
+			-> Ex. upload_tmp_dir=/tmp
+		
+		-> display_errors and display_startup_errors :	
+			-> These two settings control display errors in the browser.these two settings Off during production so that you don't accidentally display sensitive information about your web-site.
+				Ex. 	display_errors=Off
+					display_startup_errors=Off
+		
+		-> session.save_path :
+			-> session_save_path is stored current directory used to save session data. 
+				Ex. session.save_path = "/path/to/your/folder"
+		-> log_errors and error_log : 
+			-> These two settings control how PHP logs errors. When display_errors is on there is output then also display error in phperrors.log file.
+				Ex. 	log_errors=On
+					error_log=/home/aum/web/myproject/log/phperrors.log
+			
+	=> php4 and php5 : 
+		-> php4 zend engine 1
+		-> php5 zend engine 2
+		
+		-> php4 is contains limited oops concept
+		-> php5 is contains all oops concept
+	
+		-> php4 is access ltd error
+		-> php5 maximum access error	
+		
+		-> php4 does not support XML & advance level db
+		-> php5 support XML & advance level db
+		
+		-> php4 in everything is pass by value
+		-> php5 in all objects are pass by reference
+		
+	=> Error-handling strategies :
+		-> MySQL support two error-handling functions for detecting and reporting errors:
+			-> mysql_errno :- Returns the error number of the last error on the connection resource.
+			-> mysql_error :- Returns a descriptive string of the last error on the connection resource.
+		
+		
+	=> Session : Putting PHP session IDs in pages PHPSESSID
+		
+	=> Redirecting with the Refresh header
+		-> The Refresh redirects users like the Location header does, but you can add a delay before the user is redirected. For example, the following code would redirect the user to a new page after displaying the current one for 10 seconds:
+			Ex. header('Refresh: 10; url=http://www.myproject.edu/otherPage.php');
+				echo 'You will be redirected in 10 seconds';
+		
+	=> PHP's Command Line Interface (CLI) allows you to execute PHP scripts when logged in to your server through SSH.
+	
+	
+	=> Interfaces allow you to specify what methods a class should implement
+		-> Interfaces are declared with the interface keyword
+		-> To implement an interface, a class must use the implements keyword.
+	
+	
+	=> an interface translating the object logic to the relational logic is required. This interface is called an object-relational mapping, or ORM.
+	
+	=> Normalization is the process of organizing the data in the database.Normalization is used to minimize the redundancy from a relation or set of relations. It is also used to eliminate undesirable characteristics like Insertion, Update, and Deletion Anomalies.
+	
+	
+	=> Subqueries
+		-> subqueries have their own special keywords like ANY, IN,SOME and ALL
+		-> any and some keyword are same perform.
+	
+	
+	=> MySQLworkbench, has built in SQL visual editor. The Visual SQL editor allows developers to build, edit and run queries against MySQL server databases. It has utilities for viewing data and exporting it. Its syntax color highlighters help developers easily write and debug SQL statements. Multiple queries can be run and results automatically displayed in different tabs.The queries are also saved in the history panel for later retrieval and running.
+
+
+	=> Agile is a continuous iteration of development and testing in the software development process.Agile performs testing concurrently with software development.Agile allows changes in project development requirement whereas Waterfall has no scope of changing the requirements once the project development starts.
+		
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
