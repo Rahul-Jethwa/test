@@ -1,0 +1,30 @@
+	=> MySQLworkbench, has b
+	
+	
+	
+	
+	test in SQL vi
+	sual editor. The Visual SQL editor allows developers to build, edit and run queries against MySQL server databases. It has utilities for viewing da
+	
+	
+	ta and exporti
+	ng it. Its syntax
+	 color highlighters help developers easily write and debug SQL statements. Multiple queries can be run and results automatica
+	
+	lly displayed in di
+	fferent tabs.The queries are also saved in the history panel for later retrieval and running.
+
+t
+t
+t
+	=> Agile is a
+	 continuous iteration of d
+	 evelopment and testing in th
+	 e software development proce
+	 ss.Agile performs testing con
+	 currently with software devel
+	 opment.Agile allows changes 
+	 in project development requirement whereas Waterfall has no
+	  scope of changing the 
+	 requirements once the project development starts.
+		
